@@ -12,6 +12,7 @@ p {
 .big {
   font-size: 70px;
   transform: translate(25%, 75%);
+  height: 100px;
 }
 
 .tile {

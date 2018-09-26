@@ -106,7 +106,7 @@ class Memory extends React.Component {
     }
 
     if (this.state.letterMatrix == false) {
-        return <button onClick={this.init.bind(this)}>Start Game</button>;
+        return <button className="big" onClick={this.init.bind(this)}>Start Game</button>;
     } else if (this.state.revealCount >= 16) {
 	return <div>{header()}
 		    <p className="big">You win!</p>
